@@ -1,9 +1,11 @@
 🧾 Deskripsi
+
     Program ini merupakan implementasi struktur data Stack menggunakan bahasa Java untuk menyimpan data tiket bioskop.
     Stack bekerja dengan konsep LIFO (Last In First Out), yaitu data yang terakhir masuk akan menjadi data pertama yang keluar.
     Program dapat menambahkan tiket, menampilkan isi stack, melihat tiket paling atas, menghitung total transaksi, serta menghapus tiket dari stack.
 
 ⚙️ Cara Kerja
+
     - Program menyimpan data tiket ke dalam array stack
     - Method push() digunakan untuk menambahkan tiket ke posisi paling atas
     - Method pop() digunakan untuk mengambil sekaligus menghapus tiket paling atas
@@ -13,6 +15,7 @@
     - Method hitungTotal() digunakan untuk menghitung total harga seluruh tiket
 
 🧠 Konsep yang Digunakan
+
     - Struktur Data Stack
     - Konsep LIFO (Last In First Out)
     - Array
@@ -21,6 +24,7 @@
     - Perulangan (Looping)
 
 💻 Contoh Output
+
     === Isi Stack (TOP -> BOTTOM) ===
     | Tiket-C03: Inception Rp45.000 |
     | Tiket-B02: Interstellar Rp45.000 |
@@ -35,6 +39,7 @@
     =================================
 
 👩‍💻 Author
+
     Nama : Putri Nuraini
     NIM  : 25161562014
 
