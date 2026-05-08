@@ -42,7 +42,7 @@
 
     Nama : Putri Nuraini
     NIM  : 25161562014
-    Kelas: 2A
+    Kelas: 2A Informatika
 
 
 
