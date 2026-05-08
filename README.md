@@ -23,7 +23,7 @@
     - Percabangan (If-Else)
     - Perulangan (Looping)
 
-💻 Output
+💻 Contoh Output
 
     === Isi Stack (TOP -> BOTTOM) ===
     | Tiket-C03: Inception Rp45.000 |
