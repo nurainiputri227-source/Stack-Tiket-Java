@@ -1,18 +1,42 @@
-## Getting Started
+🧾 Deskripsi
+    Program ini merupakan implementasi struktur data Stack menggunakan bahasa Java untuk menyimpan data tiket bioskop.
+    Stack bekerja dengan konsep LIFO (Last In First Out), yaitu data yang terakhir masuk akan menjadi data pertama yang keluar.
+    Program dapat menambahkan tiket, menampilkan isi stack, melihat tiket paling atas, menghitung total transaksi, serta menghapus tiket dari stack.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+⚙️ Cara Kerja
+    - Program menyimpan data tiket ke dalam array stack
+    - Method push() digunakan untuk menambahkan tiket ke posisi paling atas
+    - Method pop() digunakan untuk mengambil sekaligus menghapus tiket paling atas
+    - Method peek() digunakan untuk melihat tiket paling atas tanpa menghapusnya
+    - Method isEmpty() digunakan untuk mengecek apakah stack kosong
+    - Method tampilkanStack() digunakan untuk menampilkan seluruh isi stack
+    - Method hitungTotal() digunakan untuk menghitung total harga seluruh tiket
 
-## Folder Structure
+🧠 Konsep yang Digunakan
+    - Struktur Data Stack
+    - Konsep LIFO (Last In First Out)
+    - Array
+    - Method / Function
+    - Percabangan (If-Else)
+    - Perulangan (Looping)
 
-The workspace contains two folders by default, where:
+💻 Contoh Output
+    === Isi Stack (TOP -> BOTTOM) ===
+    | Tiket-C03: Inception Rp45.000 |
+    | Tiket-B02: Interstellar Rp45.000 |
+    | Tiket-A01: Avengers Rp50.000 |
+    =================================
+    Tiket terakhir masuk: Tiket-C03: Inception Rp45.000
+    Total transaksi: Rp140.000
+    Tiket dibatalkan: Tiket-C03: Inception Rp45.000
+    === Isi Stack (TOP -> BOTTOM) ===
+    | Tiket-B02: Interstellar Rp45.000 |
+    | Tiket-A01: Avengers Rp50.000 |
+    =================================
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+👩‍💻 Author
+    Nama : Putri Nuraini
+    NIM  : 25161562014
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
